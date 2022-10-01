@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="notes" id="app">
+      <div class="header">
+        <h2>My Notes App</h2>
+      </div>
+      
+      <div class="notesPreview">
+        <div id="editBtns">
+          <button class="editBtn" type="button"><b>B</b></button>
+          <button class="editBtn" type="button"><i>I</i></button>
+          <button class="editBtn" type="button"><u>U</u></button>
+        </div>
+        <input
+          class="notesTitle"
+          type="text"
+          id="noteTitle"
+          placeholder="enter title here ..."
+        />
+        <textarea
+          class="notesBody"
+          id="noteContent"
+          placeholder="Write your note here...."
+          rows="5"
+        ></textarea>
+
+        <button id="addNotesBtn" type="button">add notes</button>
+      </div>
+
+      <div class="notesContainer">
+        <div class="notesContainerItem notesContainerItemSelected">
+          <div class="notesSmallTitle">lecture notes</div>
+          <div class="notesSmallBody">
+            lecture notes and another help and all lecture notes and another...
+          </div>
+          <div class="notesUpdated">Monday 03:30pm</div>
+        </div>
+        <div class="notesContainerItem">
+          <div class="notesSmallTitle">lecture notes</div>
+          <div class="notesSmallBody">
+            lecture notes and another help and all lecture notes and another...
+          </div>
+          <div class="notesUpdated">Monday 03:30pm</div>
+        </div>
+        <div class="notesContainerItem">
+          <div class="notesSmallTitle">lecture notes</div>
+          <div class="notesSmallBody">
+            lecture notes and another help and all
+          </div>
+          <div class="notesUpdated">Monday 03:30pm</div>
+        </div>
+        <div class="notesContainerItem">
+          <div class="notesSmallTitle">lecture notes</div>
+          <div class="notesSmallBody">
+            lecture notes and another help and all lecture notes and another...
+          </div>
+          <div class="notesUpdated">Monday 03:30pm</div>
+        </div>
+        <div class="notesContainerItem">
+          <div class="notesSmallTitle">lecture notes</div>
+          <div class="notesSmallBody">
+            lecture notes and another help and all
+          </div>
+          <div class="notesUpdated">Monday 03:30pm</div>
+        </div>
+        <div class="notesContainerItem">
+          <div class="notesSmallTitle">lecture notes</div>
+          <div class="notesSmallBody">
+            lecture notes and another help and all lecture notes and another...
+          </div>
+          <div class="notesUpdated">Monday 03:30pm</div>
+        </div>
+        <div class="notesContainerItem">
+          <div class="notesSmallTitle">lecture notes</div>
+          <div class="notesSmallBody">
+            lecture notes and another help and all
+          </div>
+          <div class="notesUpdated">Monday 03:30pm</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Made by Unknown</p>
+    </div>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
