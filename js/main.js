@@ -1,4 +1,5 @@
 import NotesAPI from "./NotesAPI.js";
+import NotesView from "./notesView.js";
 
 // NotesAPI.saveNote({
 //     title: "new note !",
